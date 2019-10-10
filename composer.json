@@ -1,0 +1,34 @@
+{
+  "name": "nitsan/ns-lazy-load",
+  "type": "typo3-cms-extension",
+  "description": "This extension reduces the number of HTTP requests mechanism and improves the loading time. You can also replace Youtube iframes by a preview thumbnail to further speed up the loading time of your website.",
+  "homepage": "https://extensions.typo3.org/extension/ns_lazy_load/",
+  "license": "GPL-2.0+",
+  "keywords": [
+  ],
+  "authors": [
+    {
+      "name": "NITSAN Technologies",
+      "role": "Developer",
+      "homepage": "https://www.nitsan.in/"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": ">=8.7.0"
+  },
+  "replace": {
+    "ns_lazy_load": "self.version",
+    "nitsan/ns-lazy-load": "self.version"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor/",
+    "bin-dir": ".Build/bin/"
+  },
+  "extra": {
+    "typo3/cms": {
+        "cms-package-dir": "{$vendor-dir}/typo3/cms",
+        "web-dir": ".Build/public",
+        "extension-key": "ns_lazy_load"
+    }
+  }
+}
