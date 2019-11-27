@@ -19,12 +19,6 @@ plugin.tx_nslazyload._CSS_DEFAULT_STYLE (
       display: block;
     }
 
-    img {
-      border: 0;
-      width: 220px;
-      height: 280px;
-    }
-
     img:not([src]) {
       visibility: hidden;
     }
