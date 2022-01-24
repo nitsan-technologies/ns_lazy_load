@@ -17,7 +17,7 @@
     "typo3/cms-core": ">=8.0.0"
   },
   "replace": {
-    "nitsan/ns-lazy-load": "self.version"
+    "typo3-ter/ns-lazy-load": "self.version"
   },
   "config": {
     "vendor-dir": ".Build/vendor/",
