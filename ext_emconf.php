@@ -1,17 +1,17 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
-    'title' => '[NITSAN] Lazy Load',
-    'description' => 'Are you facing speed and performance issue due to heavy image-assets on your TYPO3 site? If yes, This plug-an-play extension reduces the number of HTTP requests mechanism and improves the loading time. Live-Demo: https://demo.t3terminal.com/t3t-extensions/lazy-load/ You can download PRO version for more-features & free-support at https://t3terminal.com/lazy-load-typo3-extension-free',
+    'title' => 'Lazy Load',
+    'description' => 'Are you facing speed and performance issues on your TYPO3 website? If yes, then install our ns_lazy_load plug-and-play extension, which can reduce HTTPS request mechanism and improve your loading time.',
     'category' => 'services',
-    'author' => 'NITSAN Technologies Pvt Ltd',
+    'author' => 'T3Planet // NITSAN',
     'author_email' => 'sanjay@nitsan.in',
-    'author_company' => 'NITSAN Technologies Pvt Ltd',
+    'author_company' => 'T3Planet // NITSAN',
     'state' => 'stable',
     'internal' => '',
     'uploadfolder' => '0',
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '2.0.2',
+    'version' => '2.0.3',
     'constraints' => [
         'depends' => [
             'typo3' => '8.0.0-11.5.99',
