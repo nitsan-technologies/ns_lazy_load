@@ -1,11 +1,11 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Lazy Load',
-    'description' => 'Are you facing speed and performance issues on your TYPO3 website? If yes, then install our ns_lazy_load plug-and-play extension, which can reduce HTTPS request mechanism and improve your loading time.',
+    'title' => 'TYPO3 Lazy Load',
+    'description' => 'Improve your TYPO3 website speed and performance by lazy loading images and reducing unnecessary HTTP requests. A plug-and-play extension for better page load times.',
     'category' => 'services',
-    'author' => 'T3Planet // NITSAN',
-    'author_email' => 'sanjay@nitsan.in',
-    'author_company' => 'T3Planet // NITSAN',
+    'author' => 'Team T3Planet',
+    'author_email' => 'info@t3planet.de',
+    'author_company' => 'T3Planet',
     'state' => 'stable',
     'internal' => '',
     'uploadfolder' => '0',
