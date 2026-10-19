@@ -4,8 +4,7 @@
   "description": "Are you facing speed and performance issues on your TYPO3 website? If yes, then install our ns_lazy_load plug-and-play extension, which can reduce HTTPS request mechanism and improve your loading time.",
   "homepage": "https://extensions.typo3.org/extension/ns_lazy_load/",
   "license": "GPL-2.0+",
-  "keywords": [
-  ],
+  "keywords": [],
   "authors": [
     {
       "name": "NITSAN Technologies",
@@ -14,7 +13,8 @@
     }
   ],
   "require": {
-    "typo3/cms-core": "^8.0  || ^9.0 || ^10.0  || ^11.0 "
+    "typo3/cms-core": "^8.0  || ^9.0 || ^10.0  || ^11.0 ",
+    "nitsan/ns-license": "^14.5.4"
   },
   "replace": {
     "typo3-ter/ns-lazy-load": "self.version"
@@ -25,9 +25,9 @@
   },
   "extra": {
     "typo3/cms": {
-        "cms-package-dir": "{$vendor-dir}/typo3/cms",
-        "web-dir": ".Build/public",
-        "extension-key": "ns_lazy_load"
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/public",
+      "extension-key": "ns_lazy_load"
     }
   }
 }
